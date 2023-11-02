@@ -1,7 +1,7 @@
 Dude dude1;
 Dude dude2;
 
-
+//fix
 void setup() {
   size (600,600);
   dude1 = new Dude(300, 300, color(255, 0, 0), "circle");
