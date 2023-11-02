@@ -31,10 +31,10 @@ public class Dude {
     yPos = yPos + ( ySpeed * yDirection );
 
 //change so that it can be with any shape 
-    if (xPos > width-50 || xPos < 50) {
+    if (xPos > width-25|| xPos < 25) {
       xDirection *= -1;
     }
-    if (yPos > height-50 || yPos < 50) {
+    if (yPos > height-25 || yPos < 25) {
       yDirection *= -1;
     }
   }
